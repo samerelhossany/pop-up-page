@@ -1,0 +1,181 @@
+body
+{
+
+  margin: 0px;
+  padding: 0px;
+
+}
+
+::selection
+{
+  background-color: #66d9ff;
+  color: white;
+}
+/*the first part components*/
+
+.first.background.image.rainbow
+{
+width:430px;
+height:700px;
+margin-left: -1050px;
+margin-top: -130px;
+}
+
+
+.first.foreground.image.clouds
+{
+  position: absolute;
+  width:430px;
+  height:700px;
+ margin-left: 200px;
+ margin-bottom: -120px;
+  
+ 
+}
+/*----------------------------*/
+/*the upper part*/
+.nav.bar
+{
+  padding-top: 15px;
+  display: flex;
+  flex-direction:row;
+  justify-content: space-around;
+
+}
+.menu.items
+{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width:400px;
+  color:rgb(0, 176, 235);
+  font-family: "helvetica neue", helvetica, arial, sans-serif;
+}
+.logo
+{
+padding-right: 270px;
+width:92x;
+height: 47px;
+transition: opacity 0.7s;
+}
+
+/*----------------------------*/
+
+.second.foreground.image.dollars
+{
+position: absolute;
+width:450px;
+height:480px;
+margin-left:180px;
+margin-top: 200px;
+}
+.second.background.image.dollars
+{
+position: absolute;
+  width:580px;
+  height:520px;
+  margin-left: 120px;
+  margin-top:90px;
+ 
+}
+/*third part*/
+.third.background.image.popups
+{
+
+  position: absolute;
+  width:450px;
+  height:320px;
+  margin-left: 200px;
+  margin-top: 120px;
+}
+.third.foreground.image.popups
+{
+
+
+  position: absolute;
+  width:450px;
+  height:480px;
+  margin-left:180px;
+  margin-top: 240px;
+
+}
+.third.container{
+
+margin-top: 190px;
+
+}
+/*------------------------------*/
+
+.yeti
+{
+width:450px;
+height:320px;
+position: fixed;
+margin-top: -2040px; 
+margin-right:200px;
+z-index: 4;
+
+margin-left: 190px;
+} 
+.background.images
+{
+
+  z-index: 3;
+}
+
+.foreground.images
+{
+
+  z-index: 5;
+}
+.second.container
+{
+margin-top: 350px;
+}
+
+.parts
+{
+display: flex;
+flex-direction: row;
+}
+
+.paragraphs
+{
+  position: relative;
+  margin-left: 700px;
+  margin-top:240px ;
+  display: flex;
+  flex-direction: column;
+
+
+}
+.long.paragraph
+{
+  font-size: 35px;
+  font-family:"franklin-gothic-urw-cond",sans-serif;
+  width:600px;
+  line-height: 1.5;
+}
+
+.short.paragraph
+{
+  font-size: 18px;
+  font-family:"franklin-gothic-urw-cond",sans-serif;
+  width:500px;
+  color:rgb(119, 119, 119);
+}
+.extra.paragraph
+{
+
+  font-size: 20px;
+  font-family:"franklin-gothic-urw-cond",sans-serif;
+}
+.menu.item:hover{
+
+color:#66d9ff;
+                  }
+.logo:hover
+{
+  opacity:50%;
+  transition: opacity 0.35s;
+}
